@@ -1,3 +1,5 @@
+import { Carrito } from "./carrito";
+
 export const Nav = () => (
 <>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_gray_logo.png/1200px-Apple_gray_logo.png" alt="" />
@@ -11,6 +13,7 @@ export const Nav = () => (
     <li>
         <a href="#">Contacto</a> 
     </li>
+    <Carrito/>
 </ul>
 </>
 );
