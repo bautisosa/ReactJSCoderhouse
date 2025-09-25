@@ -1,1 +1,4 @@
-export const ItemListContainer = () => <div><h1></h1></div>
+export const ItemlistContainer = (props) => 
+    <div>
+        <h1>{props.saludo}</h1>
+    </div>

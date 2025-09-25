@@ -1,19 +1,18 @@
 
 import './App.css'
-import { ItemListContainer } from './componentes/itemlistcontainer';
-
-
-import { Nav } from './componentes/nav';
-
+import { Carrito } from './componentes/carrito'
+import { ItemlistContainer } from './componentes/ItemListContainer'
+import { Nav } from './componentes/Nav'
 
 
 function App() {
-  return (
+ return (
   <>
-  <Nav /> 
-  <ItemListContainer saludo="hi"/>
+ <Nav />
+ <Carrito/>
+ <ItemlistContainer saludo= "hi"/>
   </>
-  );
+ ) 
 }
 
-export default App;
+export default App
